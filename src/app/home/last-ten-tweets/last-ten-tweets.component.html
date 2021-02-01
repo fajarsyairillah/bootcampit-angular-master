@@ -1,0 +1,47 @@
+<div class="container mt-3">
+  <div class="row">
+    <h3>Last Tweets (Top 10 + Page) - &lt;BNI&gt;</h3>
+  </div>
+  <p></p>
+  <div class="container">
+    <div class="card-columns">
+        <div class="card" style="border:none;">
+            <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Recapping some of the 💯 Tweets from the past week.</p>&mdash; Twitter (@BNI) <a href="https://twitter.com/Twitter/status/942094257472409600?ref_src=twsrc%5Etfw">01 Februari 2021</a></blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="card" style="border:none;">
+            <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Recapping some of the 💯 Tweets from the past week.</p>&mdash; Twitter (@BNI) <a href="https://twitter.com/Twitter/status/942094257472409600?ref_src=twsrc%5Etfw">01 Februari 2021</a></blockquote>
+        </div>
+        <div class="card" style="border:none;">
+            <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Recapping some of the 💯 Tweets from the past week.</p>&mdash; Twitter (@BNI) <a href="https://twitter.com/Twitter/status/942094257472409600?ref_src=twsrc%5Etfw">01 Februari 2021</a></blockquote>
+        </div>
+        <div class="card" style="border:none;">
+            <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Recapping some of the 💯 Tweets from the past week.</p>&mdash; Twitter (@BNI) <a href="https://twitter.com/Twitter/status/942094257472409600?ref_src=twsrc%5Etfw">01 Februari 2021</a></blockquote>
+        </div>
+        <div class="card" style="border:none;">
+            <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Recapping some of the 💯 Tweets from the past week.</p>&mdash; Twitter (@BNI) <a href="https://twitter.com/Twitter/status/942094257472409600?ref_src=twsrc%5Etfw">01 Februari 2021</a></blockquote>
+        </div>
+        <div class="card" style="border:none;">
+            <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Recapping some of the 💯 Tweets from the past week.</p>&mdash; Twitter (@BNI) <a href="https://twitter.com/Twitter/status/942094257472409600?ref_src=twsrc%5Etfw">01 Februari 2021</a></blockquote>
+        </div>
+    </div>
+</div>
+</div>
+<a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>
+<script>
+  window.addEventListener('load', function() {
+    twttr.ready(function(twttr) {
+        twttr.events.bind('rendered', function(event) {
+            var widget = event.target,
+                shadow;
+
+            if (!(shadow = widget.shadowRoot)) {
+                return;
+            }
+
+            shadow.innerHTML += '<style>.Avatar, .Tweet-body {position: relative;}</style>';
+        });
+    });
+});
+</script>
